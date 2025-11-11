@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 220 15% 8%;
+    --foreground: 40 100% 95%;
+
+    --card: 220 20% 12%;
+    --card-foreground: 40 100% 95%;
+
+    --popover: 220 20% 12%;
+    --popover-foreground: 40 100% 95%;
+
+    --primary: 25 95% 53%;
+    --primary-foreground: 220 15% 8%;
+
+    --secondary: 120 100% 35%;
+    --secondary-foreground: 220 15% 8%;
+
+    --muted: 220 20% 20%;
+    --muted-foreground: 40 20% 65%;
+
+    --accent: 25 95% 53%;
+    --accent-foreground: 220 15% 8%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 20% 25%;
+    --input: 220 20% 18%;
+    --ring: 25 95% 53%;
+
+    --radius: 0.5rem;
+
+    /* TV specific colors */
+    --tv-wood: 30 35% 25%;
+    --tv-screen-off: 220 15% 10%;
+    --tv-screen-glow: 25 95% 53%;
+    --tv-phosphor: 120 100% 35%;
+    --tv-static: 0 0% 50%;
+
+    /* Gradients */
+    --gradient-screen: linear-gradient(180deg, hsl(var(--tv-screen-off)) 0%, hsl(220 15% 5%) 100%);
+    --gradient-wood: linear-gradient(135deg, hsl(var(--tv-wood)) 0%, hsl(30 35% 15%) 100%);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-power: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 220 15% 8%;
+    --foreground: 40 100% 95%;
+
+    --card: 220 20% 12%;
+    --card-foreground: 40 100% 95%;
+
+    --popover: 220 20% 12%;
+    --popover-foreground: 40 100% 95%;
+
+    --primary: 25 95% 53%;
+    --primary-foreground: 220 15% 8%;
+
+    --secondary: 120 100% 35%;
+    --secondary-foreground: 220 15% 8%;
+
+    --muted: 220 20% 20%;
+    --muted-foreground: 40 20% 65%;
+
+    --accent: 25 95% 53%;
+    --accent-foreground: 220 15% 8%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 20% 25%;
+    --input: 220 20% 18%;
+    --ring: 25 95% 53%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .scanlines {
+    position: relative;
+  }
+  
+  .scanlines::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      to bottom,
+      transparent 50%,
+      rgba(0, 0, 0, 0.3) 51%
+    );
+    background-size: 100% 4px;
+    pointer-events: none;
+    z-index: 10;
+  }
+
+  .crt-flicker {
+    animation: flicker 0.15s infinite;
+  }
+
+  .tv-glow {
+    box-shadow: 
+      0 0 20px hsl(var(--tv-screen-glow) / 0.3),
+      0 0 40px hsl(var(--tv-screen-glow) / 0.2),
+      inset 0 0 60px hsl(var(--tv-screen-glow) / 0.1);
+  }
+
+  .power-on {
+    animation: powerOn 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .channel-change {
+    animation: channelChange 0.3s ease-in-out;
+  }
+}
+
+@keyframes flicker {
+  0% { opacity: 0.98; }
+  50% { opacity: 1; }
+  100% { opacity: 0.98; }
+}
+
+@keyframes powerOn {
+  0% {
+    transform: scaleY(0.001) scaleX(0);
+    opacity: 0;
+  }
+  30% {
+    transform: scaleY(0.8) scaleX(0.9);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scaleY(1) scaleX(1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scaleY(1) scaleX(1);
+    opacity: 1;
+  }
+}
+
+@keyframes channelChange {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+}
