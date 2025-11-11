@@ -32,7 +32,7 @@ const Channel2 = () => {
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-secondary mt-1">-</span>
-                  <span>Record de tickets IG traités ( 117 tickets résolu le jour de l'open du serv) </span>
+                  <span>Record de tickets IG traités ( 117 tickets résolu le jour de l'open du serv/ Environ 50 ticket/semaine) </span>
                 </div>
                 <div className="flex items-start gap-2">
                   <span className="text-secondary mt-1">-</span>
