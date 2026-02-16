@@ -152,7 +152,7 @@ const TVScreen = () => {
 
           {/* Brand Label */}
           <div className="absolute bottom-2 left-1/2 -translate-x-1/2">
-            <span className="text-foreground/30 font-mono text-xs tracking-wider">RETRO-TV SOLVE</span>
+            <span className="text-foreground/30 font-mono text-xs tracking-wider">RETRO-TV FOC JJK</span>
           </div>
         </div>
 

@@ -31,25 +31,14 @@ const Channel5 = () => {
       </div>
       <div className="flex items-center gap-3 text-foreground/90">
         <MapPin className="w-5 h-5 text-secondary" />
-        <span>Village: Suna</span>
+        <span>Village: Tokyo ou Hokkaido en fonction des besoins de modération </span>
       </div>
       <div className="flex items-center gap-3 text-foreground/90">
         <FileText className="w-5 h-5 text-secondary" />
         <span>SteamID: 76561198386965030</span>
       </div>
 
-      {/* Lien vers le ticket */}
-      <div className="flex items-center gap-3 text-foreground/90">
-        <a
-          href="https://discord.com/channels/1196874607022571590/1437568535307092089"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 text-primary font-medium hover:underline"
-        >
-          <LinkIcon className="w-5 h-5 text-secondary" />
-          <span>Voir le ticket Discord</span>
-        </a>
-      </div>
+   
     </div>
   </div>
 </div>
@@ -75,11 +64,11 @@ const Channel5 = () => {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">✓</span>
-                <span>Passion Solve : Connexion quotidienne 18h - 2h</span>
+                <span>Passion FOC JJK: Connexion quotidienne 18h - 2h</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">✓</span>
-                <span>Expertise Naruto : Regardé 2 fois + Boruto en cours</span>
+                <span>Expertise JJK : Regardé 2 fois </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-primary mt-1">✓</span>
@@ -94,7 +83,7 @@ const Channel5 = () => {
           <h3 className="font-semibold text-lg mb-3 text-primary">Pourquoi moi ?</h3>
           <p className="text-foreground/90 leading-relaxed">
             Mon expérience sur OKIRO SOLO LEVELING en tant que RM, mes records de résolution de BDA et de traitement 
-            de tickets IG démontrent mon efficacité. Ma présence quotidienne sur Solve (18h - 2h) et ma très haute 
+            de tickets IG démontrent mon efficacité. Ma présence quotidienne sur FOC JJK (18h - 2h) et ma très haute 
             disponibilité (11h - 2h tous les jours) garantissent une modération réactive. Ma connaissance approfondie 
             de l'univers Naruto et mon expérience RP variée me permettent de comprendre tous les enjeux du serveur.
           </p>

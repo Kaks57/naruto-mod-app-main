@@ -66,11 +66,7 @@ const Channel4 = () => {
             <div className="space-y-3 text-foreground/90">
               <div className="flex items-start gap-2">
                 <span className="text-secondary mt-1">-</span>
-                <span>Naruto regardé 2 fois complètement</span>
-              </div>
-              <div className="flex items-start gap-2">
-                <span className="text-secondary mt-1">-</span>
-                <span>Actuellement sur Boruto</span>
+                <span>JJK regardé 2 fois complètement</span>
               </div>
 
               <div className="flex items-start gap-2">

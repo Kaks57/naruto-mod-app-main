@@ -16,8 +16,8 @@ const Channel1 = () => {
       {/* Intro */}
       <div className="bg-card/50 backdrop-blur-sm p-6 rounded-lg border border-primary/20">
         <p className="text-lg leading-relaxed">
-          Bonjour à toute l'équipe de modération de Solve Naruto RP. Je me présente. Je m'appelle Kaïs et j'ai avec moi, une expérience staff/modération.
-           Ma présence quotidienne sur la solve et mon investissement sur le serveur témoignent de ma motivation.
+          Bonjour à toute l'équipe de modération de FOC JJK. Je me présente. Je m'appelle Kaïs et j'ai avec moi, une expérience staff/modération.
+           Ma présence quotidienne et mon investissement sur le serveur témoignent de ma motivation.
         </p>
       </div>
 
@@ -43,7 +43,7 @@ const Channel1 = () => {
           <MapPin className="w-5 h-5 text-secondary mt-1 flex-shrink-0" />
           <div>
             <h3 className="font-semibold text-secondary mb-1">Serveur</h3>
-            <p className="text-sm text-foreground/80">Solve Naruto RP</p>
+            <p className="text-sm text-foreground/80">FOC JJK</p>
           </div>
         </div>
 
@@ -56,13 +56,13 @@ const Channel1 = () => {
         </div>
       </div>
 
-      {/* Passion Solve */}
+      {/* Passion FOC JJK*/}
       <div className="bg-gradient-to-r from-primary/10 to-secondary/10 p-5 rounded-lg border border-primary/20">
         <h3 className="font-semibold text-lg mb-3 text-primary flex items-center gap-2">
           ► PASSION SOLVE
         </h3>
         <p className="text-foreground/90 leading-relaxed">
-          Connexion quotidienne 18h pile jusqu'à 2h du matin, depuis maintenant une série de 85jours d'affilés connecté sur la solve. Whitelist depuis Mars dernier, Membre actif et investi dans la communauté depuis le début.
+          Connexion quotidienne 18h pile jusqu'à 2h du matin, depuis maintenant une série de 85jours d'affilés connecté sur la solve.
         </p>
       </div>
       </div>

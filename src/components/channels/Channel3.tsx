@@ -19,10 +19,10 @@ const Channel3 = () => {
             <Heart className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
             <div>
               <h3 className="text-xl font-semibold text-primary mb-3 flex items-center gap-2">
-                ► PASSION SOLVE
+                ► PASSION FOC JJK
               </h3>
               <p className="text-foreground/90 leading-relaxed">
-                Connexion quotidienne 18h pile jusqu'à 2h du matin. Ma présence constante sur Solve témoigne 
+                Connexion quotidienne 18h pile jusqu'à 2h du matin. Ma présence constante témoigne 
                 de mon investissement réel dans cette communauté.
               </p>
             </div>
@@ -82,7 +82,7 @@ const Channel3 = () => {
           <h3 className="font-semibold text-lg mb-3 text-primary">Engagement</h3>
           <p className="text-foreground/90 leading-relaxed">
            J'ai pu avoir une bonne expérience sur OKIRO SOLO LEVELING où j'ai détenu le record de BDA résolus et de tickets traités, 
-            je suis prêt à apporter cette même rigueur et efficacité sur la Solve Naruto RP.
+            je suis prêt à apporter cette même rigueur et efficacité sur la FOC JJK.
           </p>
         </div>
       </div>
