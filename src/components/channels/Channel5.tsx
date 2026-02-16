@@ -85,7 +85,7 @@ const Channel5 = () => {
             Mon expérience sur OKIRO SOLO LEVELING en tant que RM, mes records de résolution de BDA et de traitement 
             de tickets IG démontrent mon efficacité. Ma présence quotidienne sur FOC JJK (18h - 2h) et ma très haute 
             disponibilité (11h - 2h tous les jours) garantissent une modération réactive. Ma connaissance approfondie 
-            de l'univers Naruto et mon expérience RP variée me permettent de comprendre tous les enjeux du serveur.
+            de l'univers JJK et mon expérience RP variée me permettent de comprendre tous les enjeux du serveur.
           </p>
         </div>
 
